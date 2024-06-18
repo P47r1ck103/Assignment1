@@ -66,6 +66,8 @@ a:hover {
     background-color: orange;
     font-family: arial;
     font-weight: bold;
+    flex-basis: 50px;
+    flex-wrap: wrap;
 
 }
 
@@ -73,6 +75,10 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.mid-text {
+    flex-basis: 600px;
 }
 
 .picture-1 {
@@ -94,16 +100,23 @@ a:hover {
 
 .bottom-1 {
     color: white;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 .bottom-2 {
     color: white;
-    justify-content: center;
 }
 
 .bottom-text-1 {
-    align-self: center;
-    justify-self: center;
-    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
