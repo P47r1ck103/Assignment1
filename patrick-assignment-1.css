@@ -5,6 +5,8 @@ body {
 }
 
 .first-text {
+    flex-direction: column;
+    justify-content: center;
     color: white;
     font-size: medium;
     margin-bottom: 0px;
@@ -17,10 +19,14 @@ body {
     font-size: x-large;
     margin-top: 0px;
     margin-bottom: 0px;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
 .third-text {
+    flex-direction: column;
+    justify-content: center;
     color: white;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -28,8 +34,10 @@ body {
 }
 
 .small-text {
+    flex-direction: column;
+    justify-content: center;
     color: white;
-    margin-top: 0px;
+    margin-top: 25px;
     margin-bottom: 0px;
     font-size: x-small;
 }
@@ -58,7 +66,7 @@ a:hover {
 
 }
 
-.button-1 {
+.button-2 {
     border: 0px;
     border-radius: 25px;
     padding: 10px 25px;
@@ -66,24 +74,36 @@ a:hover {
     background-color: orange;
     font-family: arial;
     font-weight: bold;
-    flex-basis: 50px;
-    flex-wrap: wrap;
-
 }
 
 .mid {
-    display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .mid-text {
-    flex-basis: 600px;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mid-text-1 {
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+
 }
 
 .picture-1 {
     margin-top: 125px;
-    flex-basis: 680px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 25px;
 }
 
 .button-2 {
@@ -100,23 +120,58 @@ a:hover {
 
 .bottom-1 {
     color: white;
-    display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-basis: 450px;
 }
 
 .bottom-2 {
     color: white;
 }
 
-.bottom-text-1 {
-    display: flex;
-    justify-content: center;
+.bottom-1-text-1 {
+    color: white;
+    flex-direction: column;
 
+
+}
+
+.bottom-1-text-2 {
+    color: white;
+    justify-content: column;
 }
 
 .bottom-images {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.gif-1 {
+    flex-direction: row;
+}
+
+.gif-2 {
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.png-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-text {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: px;
 }
