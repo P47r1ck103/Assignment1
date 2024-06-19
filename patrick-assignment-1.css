@@ -4,6 +4,10 @@ body {
     margin-left: 25px;
 }
 
+.section-1 {
+    flex-direction: row;
+}
+
 .first-text {
     flex-direction: column;
     justify-content: center;
@@ -77,33 +81,21 @@ a:hover {
 }
 
 .mid {
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .mid-text {
     color: white;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
 .mid-text-1 {
     color: white;
-    margin-top: 25px;
-    display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 25px;
-
-}
-
-.picture-1 {
-    margin-top: 125px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-bottom: 25px;
 }
 
 .button-2 {
@@ -118,29 +110,6 @@ a:hover {
     flex-direction: column;
 }
 
-.bottom-1 {
-    color: white;
-    flex-direction: row;
-    justify-content: center;
-    flex-basis: 450px;
-}
-
-.bottom-2 {
-    color: white;
-}
-
-.bottom-1-text-1 {
-    color: white;
-    flex-direction: column;
-
-
-}
-
-.bottom-1-text-2 {
-    color: white;
-    justify-content: column;
-}
-
 .bottom-images {
     display: flex;
     flex-direction: row;
@@ -148,7 +117,9 @@ a:hover {
 }
 
 .gif-1 {
+    display: flex;
     flex-direction: row;
+    flex-basis: 250px;
 }
 
 .gif-2 {
@@ -163,7 +134,16 @@ a:hover {
     justify-content: center;
 }
 
-.bottom-text {
+.underline-text {
+    font-display: underline;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+.bottom-1 {
     color: white;
     display: flex;
     flex-direction: row;
@@ -174,4 +154,34 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-basis: px;
+}
+
+.bottom-1-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test {
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+    align-content: center;
+    font-size: medium;
+}
+
+.bottom-2-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
