@@ -1,8 +1,8 @@
 body {
     margin: 0px;
     background-color: hsla(240, 83%, 55%, 0.992);
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 50px;
+    margin-right: 300px;
 }
 
 .section-1 {
@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     color: white;
-    font-size: medium;
+    font-size: larger;
     margin-bottom: 0px;
     margin-top: 150px;
 
@@ -41,6 +41,7 @@ body {
 }
 
 .third-text {
+    font-size: medium;
     flex-direction: column;
     justify-content: center;
     color: white;
@@ -74,7 +75,7 @@ a {
 
 }
 
-.button-2 {
+.button-2 { 
     border: 0px;
     border-radius: 25px;
     padding: 10px 25px;
@@ -88,13 +89,15 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: 400px;
 }
 
 .mid-text {
     color: white;
     flex-direction: column;
     justify-content: center;
+    align-content: space-around;
+    
 }
 
 .mid-text-1 {
@@ -120,19 +123,28 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    
 }
 
 .gif-1 {
+    width:775px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    flex-basis: 250px;
+    flex-basis: 50px;
     padding-top: 150px;
+    
+    
 }
 
 .gif-2 {
     justify-content: center;
     flex-direction: row;
-    margin-right: 450px;
+    margin-left: 300px;
+    margin-right: 100px;
+    
 
 }
 
@@ -140,6 +152,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: right 50px; 
 }
 
 .bottom-1 {
@@ -152,7 +165,7 @@ a {
 .image-1 {
     display: flex;
     flex-direction: column;
-    flex-basis: px;
+    flex-basis: 150px;
 }
 
 .bottom-1-text {
@@ -160,16 +173,22 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 300px;
+    font-size: larger;
+}
+.top{
+    font-weight: bold;
+    font-size: larger;
+    font-stretch:auto;
 }
 
 .test {
     color: white;
-    margin-top: 25px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
     align-content: center;
     font-size: medium;
 }
@@ -178,11 +197,16 @@ a {
     color: white;
     display: flex;
     flex-direction: column;
-    margin-right: 450px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .bottom-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 300px;
+}
+.underlined-text{
+    font-weight: bolder;
 }
