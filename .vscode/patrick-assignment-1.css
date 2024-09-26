@@ -1,8 +1,9 @@
 body {
     margin: 0px;
-    background-color: hsla(240, 83%, 55%, 0.992);
+    background-color:rgba(73,18,246,255);
     margin-left: 50px;
     margin-right: 300px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-1 {
@@ -72,7 +73,7 @@ a {
     border: 0px;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 25px;
 
 }
@@ -91,7 +92,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
 .mid-text {
@@ -99,6 +100,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
+    align-items: self-end;
     
 }
 
@@ -106,6 +108,7 @@ a {
     color: white;
     flex-direction: row;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .button-2 {
@@ -138,13 +141,14 @@ a {
     flex-basis: 150px;
     padding-top: 150px;
     margin-right: 100px;
+    flex-basis: 1100px;
     
     
 }
 
 .gif-2 {
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
     
@@ -155,7 +159,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: right 100px; 
+    margin: right 100px;
+    width: 450px; 
 }
 
 .bottom-1 {
@@ -176,7 +181,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 0px;
     font-size: large;
     
 }
@@ -206,12 +210,18 @@ a {
     margin-left: 100px;
 }
 
-.bottom-section {
-    display: flex;
+.bottom-section { 
+    display: flex; 
     flex-direction: row;
     justify-content: center;
-    margin-left: 300px;
+    margin-left: 0px;
 }
 .underlined-text{
     font-weight: bolder;
+
+
+.leftSide {
+    display: flex;
+    flex-direction:column
+}
 }
