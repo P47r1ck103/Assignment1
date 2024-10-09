@@ -1,15 +1,14 @@
 body {
     margin: 0px;
     background-color:rgba(73,18,246,255);
-    margin-left: 50px;
-    margin-right: 300px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-1 {
     flex-direction: row;
     flex-basis: 400px;
-    align-content:center;
+    align-content: center;
+    justify-content: center;
 
 }
 
@@ -27,7 +26,7 @@ body {
     flex-direction: column;
     justify-content: center;
     color: white;
-    font-size: larger;
+    font-size: 70px;
     margin-bottom: 0px;
     margin-top: 150px;
 
@@ -35,21 +34,18 @@ body {
 
 .second-text {
     color: white;
-    font-size: x-large;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 80px;
     justify-content: center;
     flex-direction: column;
+    font-weight: bolder;
 
 }
 
 .third-text {
-    font-size: medium;
+    font-size: 35px;
     flex-direction: column;
     justify-content: center;
     color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
 
 }
 
@@ -59,7 +55,7 @@ body {
     color: white;
     margin-top: 25px;
     margin-bottom: 0px;
-    font-size: x-small;
+    font-size: 25px;
 }
 
 a {
@@ -92,7 +88,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 500px;
 }
 
 .mid-text {
@@ -101,6 +96,7 @@ a {
     justify-content: center;
     align-content: space-around;
     align-items: self-end;
+    
     
 }
 
@@ -134,13 +130,12 @@ a {
 }
 
 .gif-1 {
-    width:400px;
+    width:300px;
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-basis: 150px;
+    ;
     padding-top: 150px;
-    margin-right: 100px;
     flex-basis: 1100px;
     
     
@@ -150,7 +145,9 @@ a {
     justify-content: center;
     flex-direction: column;
     margin-right: 50px;
-    
+    display: flex;
+    justify-content: space-around;
+
 
 }
 
@@ -179,13 +176,14 @@ a {
     color: white;
     display: flex;
     flex-direction: column;
-    font-size: large;
+    font-size: 85px;
     margin-right: 50px;
+    flex: start;
     
 }
 .top{
     font-weight: bold;
-    font-size: larger;
+    font-size: 85px;
     font-stretch:auto;
 }
 
@@ -197,7 +195,7 @@ a {
     justify-content: center;
     margin-bottom: 100px;
     align-content: center;
-    font-size: larger;
+    font-size: 100px;
     font-weight: bolder;
 }
 
@@ -205,6 +203,7 @@ a {
     color: white;
     display: flex;
     flex-direction: column;
+    font-size: 85px;
     
     
 }
@@ -216,7 +215,7 @@ a {
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    margin-left: 0px;
+    
 }
 .underlined-text{
     font-weight: bolder;
