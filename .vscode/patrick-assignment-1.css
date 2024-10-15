@@ -186,7 +186,12 @@ a {
     font-size: 85px;
     font-stretch:auto;
 }
-
+/* #viewport {
+    display:flex;
+    justify-content: center;
+    align-items:center
+    flex-direction: column; */
+}
 .test {
     color: white;
     margin-top: 100px;
